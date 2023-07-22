@@ -162,6 +162,25 @@
         </div>
     </header>
     <main class="md:container md:mx-auto">
+        <!--featured bike this year-->
+        <section class="my-24">
+            <h3 class="text-5xl mb-5 font-semibold text-center">
+                Fetured Bikes In This Year
+            </h3>
+           <p class="text-center mb-10 text-bike-primary">Best Bike Collections</p>
+           
+            <div class="grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!--first card-->
+                <div class="card  bg-base-100 ">
+                    <figure><img src="/images//others/feature-bike.png" alt="Shoes" /></figure>
+                </div>
+                <div class="card  bg-base-100 ">
+                    <figure><img src="/images//others/feature-bike.png" alt="Shoes" /></figure>
+                </div>
+                <div class="card  bg-base-100 ">
+                    <figure><img src="/images//others/feature-bike.png" alt="Shoes" /></figure>
+                </div>
+        </section>
         <!--featured bike-->
         <section class="my-24">
             <h3 class="text-5xl mb-12 font-semibold text-center">
@@ -284,7 +303,7 @@
         <section>
             <h3 class="text-5xl mb-12 font-semibold text-center">Frequently Asked <span
                     class="text-bike-primary">Questions</span> </h3>
-            <div class="hero min-h-screen ">
+            <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:gap-24 lg:flex-row">
                     <img src="/images//others/faq.png" class="w-3/4 rounded-lg shadow-2xl" />
                     <div>
@@ -327,7 +346,8 @@
                         </div>
                         <div class="collapse collapse-arrow ">
                             <input type="radio" name="my-accordion-2" />
-                            <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?
+                            <div class="collapse-title text-xl font-medium">What rules should I follow when riding my
+                                bike?
                                 <Translate text="Click to open this one and close others" />
                             </div>
                             <div class="collapse-content">
@@ -341,9 +361,34 @@
             </div>
         </section>
     </main>
-    <footer>
 
+    <footer class="footer p-10 bg-neutral text-neutral-content footer footer-center lg:flex flex-row lg:justify-around">
+        <div class="">
+            <div class="flex gap-10 py-2">
+                <p><a href="">Download Now</a></p>
+                <p><a href="">License</a></p>
+            </div>
+            <div class="grid grid-cols-3 gap-3 lg:gap-5 lg:flex py-2">
+                <p><a href="">About</a></p>
+                <p><a href="">Features</a></p>
+                <p><a href="">Pricing</a></p>
+                <p><a href="">Careers</a></p>
+                <p><a href="">Help</a></p>
+                <p><a href="">Privacy Policy</a></p>
+            </div>
+            <div>
+                <p class="pt-7">© 2020 bike. All rights reserved</p>
+            </div>
+        </div>
+        <div>
+            <span class="footer-title">Get the App</span>
+            <div class="grid grid-cols-1 gap-4">
+                <a href=""><img class="w-36" src="images/others/ios.png" alt=""></a>
+                <a href=""><img class="w-36" src="images/others/android.png" alt=""></a>
+            </div>
+        </div>
     </footer>
+
 </body>
 
 </html>
